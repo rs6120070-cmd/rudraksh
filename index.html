@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+
+    <!-- Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark nav-theme fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-danger fw-bold" href="#home">MyPortfolio</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                     <li class="nav-item"><a class="nav-link" href="#projects">Project</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#hobbies">Hobbies</a></li>
+                    
+                   
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script type="text/javascript">
+        $('.js-scroll-trigger').click(function () {
+            $('.navbar-collapse').collapse('hide');
+        });
+    </script>
+
+
+    <!-- Home Section -->
+<section id="home" class="home">
+  <div class="home-container text-center">
+    <!-- Circular Profile Photo -->
+    <div class="profile-pic">
+      <img src="images/rudraksh.png" alt="Rudraksh Sharma">
+    </div>
+
+    <!-- Animated Name -->
+    <h1 class="myname">Hi, I'm <span>Rudraksh Sharma</span></h1>
+    <p class="tagline">Web Developer | C & Python Learner | Bootstrap Enthusiast</p>
+
+    <!-- Buttons -->
+    <div class="hero-buttons">
+      <a href="#projects" class="btn btn-danger btn-lg">View My Work</a>
+      <a href="rudraksh RESUME.pdf" class="btn btn-outline-light btn-lg" target="_blank">Download Resume</a>
+    </div>
+  </div>
+</section>
+
+<!-- about -->
+
+<section id="about" class="section py-5">
+    <div class="container">
+        <h2 class="section-title text-center mb-5">About Me</h2>
+
+        <div class="row align-items-center">
+            
+            <!-- IMAGE COLUMN -->
+            <div class="col-md-4 text-center mb-4 mb-md-0 d-flex justify-content-center">
+                <div class="photo-box">
+                    <img src="images/rudraksh.png" alt="profile image" class="img-fluid">
+                </div>
+            </div>
+
+            <!-- TEXT COLUMN -->
+            <div class="col-md-8 d-flex justify-content-center align-items-center">
+                <p class="about-text" style="line-height: 30px;text-align: justify">
+                   My name is Rudraksh Sharma, and I am 18 years old. I am currently pursuing a Bachelor of Computer Applications (BCA). I have a strong interest in web development and enjoy creating clean, responsive, and user-friendly websites.
+
+I am learning technologies such as HTML, CSS, and basic programming concepts, and I like working on practical projects to improve my skills. I am motivated to continuously learn new tools and technologies and grow as a software professional. I am looking forward to gaining real-world experience and building a strong career in the IT field.
+
+
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- Education -->
+    <section id="education" class="py-5 bg-dark text-light" class="reveal">
+  <div class="container">
+    <h2 class="text-center mb-4">Education</h2>
+
+    <div class="row g-4">
+
+      <!-- Card 1 -->
+      <div class="col-md-4">
+        <div class="edu-card p-4">
+          <div class="icon-box">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h4>Bachelor of Computer Application</h4>
+          <p>Pursuing B.C.A with deep interest in programming, web development and projects.</p>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="col-md-4">
+        <div class="edu-card p-4">
+          <div class="icon-box">
+            <i class="fas fa-university"></i>
+          </div>
+          <h4>12th Humanities</h4>
+          <p>Studied subjects like Political science, Economics, History and English with deep focus on analtsis and cretivity.</p>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="col-md-4">
+        <div class="edu-card p-4">
+          <div class="icon-box">
+            <i class="fas fa-school"></i>
+          </div>
+          <h4>10th Standard</h4>
+          <p>Completed my 10th with strong fundamentals in Maths, Science and Computer basics.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>   <!-- skills -->
+<section id="skills" class="py-5 bg-dark text-white" class="reveal">
+  <div class="container">
+    <h2 class="text-center mb-5">My Skills</h2>
+    <div class="row g-4">
+
+      <!-- HTML -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <i class="fa-brands fa-html5 fa-2x" style="color:#ff4500;"></i>
+          <div class="w-100">
+            <h5>HTML</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:75%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- CSS -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <i class="fa-brands fa-css3-alt fa-2x" style="color:#00bfff;"></i>
+          <div class="w-100">
+            <h5>CSS</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:72%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <i class="fa-brands fa-bootstrap fa-2x" style="color:#792ee5;"></i>
+          <div class="w-100">
+            <h5>Bootstrap</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:70%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- C Language -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <i class="fa-solid fa-c" style="color:#00008b; font-size: 50;"></i>
+          <div class="w-100">
+            <h5>C Language</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:70%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Communication -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <i class="fa-solid fa-comments fa-2x" style="color:#ff6347;"></i>
+          <div class="w-100">
+            <h5>Communication</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:70%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+       <!-- Communication -->
+      <div class="col-md-6">
+        <div class="skill-item d-flex align-items-center gap-2">
+          <!-- <i class="fa-solid fa-comments fa-2x" style="color:#ff6347;"></i> -->
+          <div class="w-100">
+            <h5>Powerpoint</h5>
+            <div class="progress skill-bar">
+              <div class="progress-bar" style="--skill-width:85%;"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</section>
+<!-- Projects -->
+<section id="projects" class="project-section py-5 reveal">
+  <div class="container">
+    <h2 class="text-center text-light mb-5">My Projects</h2>
+
+    <div class="row g-4">
+
+      <!-- Project 1 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-content">
+            <h4>Bat webpage</h4>
+            <p>A modern responsive personal website built using HTML, CSS and Bootstrap.</p>
+            <a href="https://rs6120070-cmd.github.io/Ravynn/" class="btn btn-danger" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-content">
+            <h4>Guess The Number Game</h4>
+            <p>A simple fun game made with pure JavaScript for beginners.</p>
+            <a href="https://rs6120070-cmd.github.io/Guess-the-number-game/" class="btn btn-danger" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="col-md-4">
+        <div class="project-card">
+          <div class="project-content">
+            <h4>Ice cream webpage</h4>
+            <p>A collection of common C language programs for students.</p>
+            <a href="https://rs6120070-cmd.github.io/icecreampage/" class="btn btn-danger" target="_blank">Live Demo</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+    <!-- hobbies -->
+    <section id="hobbies" class="py-5 bg-dark text-light" class="reveal">
+  <div class="container">
+    <h2 class="text-center mb-4">Hobbies</h2>
+
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="hobby-card">
+          <i class="fas fa-baseball-ball"></i>
+          <h4>Cricket</h4>
+          <p>I enjoy playing cricket, staying active and improving teamwork skills.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="hobby-card">
+          <i class="fas fa-music"></i>
+          <h4>Music</h4>
+          <p>Music keeps my mood balanced and fuels my creativity.</p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="hobby-card">
+          <i class="fas fa-gamepad"></i>
+          <h4>Gaming</h4>
+          <p>Gaming helps me relax while challenging my strategic thinking.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+  
+  
+
+
+    <!-- Contact -->
+
+   <section class="contact-section reveal" id="contact">
+
+  <h2 class="contact-title">Contact Me</h2>
+
+  <div class="contact-box">
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+
+</section>
+
+
+ <footer class="footer">
+  <div class="footer-container">
+
+    <!-- About -->
+    <div class="footer-box">
+      <h3>About Me</h3>
+      <p>
+        I am a BCA student passionate about web development and software
+        engineering. I build clean and user-friendly applications.
+      </p>
+    </div>
+
+    <!-- Quick Links -->
+    <div class="footer-box">
+      <h3>Quick Links</h3>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Contact -->
+    <div class="footer-box">
+      <h3>Contact</h3>
+      <p>Email: rs6120070@gmail.com</p>
+      <p>Phone: +91 9636365108</p>
+      <div class="social">
+        <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-2x fa-linkedin"></i></a>
+        <a href="https://github.com" target="_blank"><i class="fa-brands fa-2x fa-github"></i></a>
+        <a href="https://x.com" target="_blank"><i class="fa-brands fa-2x fa-instagram"></i></a>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Bottom -->
+  <div class="footer-bottom">
+    <p>© 2025 Rudraksh Sharma | All Rights Reserved</p>
+  </div>
+</footer>
+
+    <script>
+  const revealElements = document.querySelectorAll('.reveal');
+
+  function revealOnScroll() {
+    revealElements.forEach(el => {
+      const rect = el.getBoundingClientRect();
+
+      if (rect.top < window.innerHeight - 100) {
+        el.classList.add('active');
+      }
+    });
+  }
+
+  window.addEventListener('scroll', revealOnScroll);
+  revealOnScroll();
+</script>
+</body>
+
+</html>
